@@ -1,1166 +1,931 @@
-<!DOCTYPE html><html lang="en-US"><head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>GPTCREATORCLUB™ | Official Website</title>
-<meta name="description" content="The GPT Creator Club is designed for creators, coaches, and marketers who understand the power of offering custom GPTs but don’t want to waste time wrestling with prompts, testing, tech, or writing all the supporting content from scratch.">
-<meta name="keywords" content="NiteHush ProGPT Creator Club, Custom GPTs, White label AI tools, Done-for-you GPTs, AI digital products, GPT business package, No-code AI solutions, AI automation for creators, Monetize GPTs, AI tools for coaches and marketers, Digital product creators, Coaches and consultants, Online marketers, Freelancers, Small business owners, Entrepreneurs, Beginners in AI, Non-technical professionals, Plug-and-play GPTs, Sales funnel assets, Email marketing sequences, Social media content, Video training modules, User guide templates, Time-saving AI tools, Revenue-generating GPTs, Lead generation tools, Brandable AI solutions">
-<link rel="canonical" href="https://gptcreatorclub.vercel.app/">
-<meta name="robots" content="index, follow">
-<link rel="shortcut icon" href="images/nitehushpro-favicon-96x96.png" type="image/x-icon">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPT Creator Club - Launch Custom AI Tools Without The Hassle</title>
+    <meta name="description" content="Get done-for-you custom GPTs every month with white label rights, sales copy, emails, and social content. Perfect for creators, coaches, and marketers.">
+    <meta name="keywords" content="GPT, AI tools, custom GPT, white label GPT, digital products, AI business">
+    <meta name="author" content="GPT Creator Club">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #4F46E5;
+            --primary-dark: #4338CA;
+            --secondary: #10B981;
+            --dark: #1F2937;
+            --darker: #111827;
+            --light: #F3F4F6;
+            --lighter: #F9FAFB;
+            --gray: #6B7280;
+            --danger: #EF4444;
+            --success: #10B981;
+            --warning: #F59E0B;
+            --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+            --shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+            --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
 
-<!-- Open Graph -->
-<meta property="og:title" content=GPTCREATORCLUB™ | Official Website">
-<meta property="og:description" content="The GPT Creator Club is designed for creators, coaches, and marketers who understand the power of offering custom GPTs but don’t want to waste time wrestling with prompts, testing, tech, or writing all the supporting content from scratch.">
-<meta property="og:image" content="images/index-meta.png">
-<meta property="og:url" content="https://gptcreatorclub.vercel.app/">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="NiteHush Pro">
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-<!-- Twitter Card -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="GPTCREATORCLUB™ | Official Website">
-<meta name="twitter:description" content="The GPT Creator Club is designed for creators, coaches, and marketers who understand the power of offering custom GPTs but don’t want to waste time wrestling with prompts, testing, tech, or writing all the supporting content from scratch.">
-<meta name="twitter:image" content="assets/images/index-meta.png">
-<meta name="twitter:url" content="https://gptcreatorclub.vercel.app/">
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: var(--dark);
+            line-height: 1.6;
+            background-color: var(--lighter);
+            overflow-x: hidden;
+        }
 
-<!-- Stylesheets -->
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/mbr-additional.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost:400,500,600,700&display=swap">
-  
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org/",
-  "@type": "Product",
-  "name": "GPTCREATORCLUB",
-  "image": "https://gptcreatorclub.vercel.app/assets/images/index-meta.png",
-  "description": "The GPT Creator Club is designed for creators, coaches, and marketers who understand the power of offering custom GPTs but don’t want to waste time wrestling with prompts, testing, tech, or writing all the supporting content from scratch.",
-  "brand": {
-    "@type": "Brand",
-    "name": "GPTCREATORCLUB"
-  },
-  "sku": "GPTCREATORCLUB",
-  "offers": {
-    "priceValidUntil": "2030-12-31",
-    "@type": "Offer",
-    "url": "https://gptcreatorclub.vercel.app/",
-    "priceCurrency": "USD",
-    "price": "61.09",
-    "availability": "https://schema.org/InStock",
-    "itemCondition": "https://schema.org/NewCondition"
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5",
-    "bestRating": "5",
-    "worstRating": "3",
-    "ratingCount": "2000"
-  }
-}
-</script>
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            line-height: 1.3;
+            margin-bottom: 1rem;
+            color: var(--darker);
+        }
 
+        h1 {
+            font-size: 2.5rem;
+        }
 
-<script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "qogepgdumi");
-</script>
+        h2 {
+            font-size: 2rem;
+        }
 
+        h3 {
+            font-size: 1.75rem;
+        }
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [{
-    "@type": "Question",
-    "name": "Do I need technical skills to use the GPTs?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Not at all. If you can copy and paste, you can use these GPTs. We provide step-by-step training videos to walk you through everything, from setup to promotion."
-    }
-  },{
-    "@type": "Question",
-    "name": "What kind of GPTs will I get each month?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "You’ll receive GPTs designed for marketers, creators, coaches, consultants, and educators — tools that solve real problems, attract leads, and even generate sales. Think list builders, productivity boosters, content helpers, and more."
-    }
-  },{
-    "@type": "Question",
-    "name": "How does the 'built by us' feature work?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Simply suggest GPTs you want us to create via our support desk, and we’ll add the best ones in the upcoming months. Yes, you can influence the club roadmap."
-    }
-  },{
-    "@type": "Question",
-    "name": "Can I sell the GPTs under my own name or brand?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Absolutely! Each GPT comes with full white label rights meaning you can rename it, repackage it, and even sell it as if you created it yourself. You're building your brand, not promoting ours."
-    }
-  },{
-    "@type": "Question",
-    "name": "Can my customers use the GPT too?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Of course. Once you rebrand and share your GPT, your end user can use it freely inside their own ChatGPT account. We even include a user guide you can pass on to help them get started."
-    }
-  },{
-    "@type": "Question",
-    "name": "What exactly are the white label rights? What can I not do?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "You can rebrand, sell, give away, and use the GPTs to grow your business. You cannot sell or share the unedited source files or licensing rights themselves. In other words, you can sell the finished product, but not the behind-the-scenes materials."
-    }
-  },{
-    "@type": "Question",
-    "name": "Do I need a ChatGPT Plus subscription to use these?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Yes — you’ll need an active ChatGPT Plus subscription ($20/month via OpenAI) to copy & paste Randys Prompts into the GPT Creator of ChatGPT. Then once created, Anyone can use the GPT you provide for them via your new GPT link."
-    }
-  },{
-    "@type": "Question",
-    "name": "How does the guarantee work?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "I'll keep this simple: your investment is covered by my full money-back guarantee.
+        h4 {
+            font-size: 1.5rem;
+        }
 
-I know other people make you jump through a bunch of hoops and prove you've watched all the videos and done all the homework. 
+        p {
+            margin-bottom: 1.25rem;
+            font-size: 1.1rem;
+        }
 
-But that's not how we roll.
+        a {
+            color: var(--primary);
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
 
-You have a full 14 days from the date you join to see if The GPT Creator Club is right for you.
+        a:hover {
+            color: var(--primary-dark);
+        }
 
-If you decide that it isn't, just let us know and we'll gladly refund your money. No questions asked."
-    }
-  },{
-    "@type": "Question",
-    "name": "How much help am I going to get?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "You'll get unlimited access to our expert team through the support desk... our team responds quickly.
+        img {
+            max-width: 100%;
+            height: auto;
+        }
 
-Just hit the "submit a ticket" button inside the members area to tell us what you're struggling with and we'll reply to you personally within 24 hours.
+        ul, ol {
+            margin-bottom: 1.25rem;
+            padding-left: 1.5rem;
+        }
 
-We have the best support in the business. We will blow you away when it comes to the level of support you've come to expect from other businesses, because we are that much a cut above.
+        li {
+            margin-bottom: 0.5rem;
+        }
 
-Bottom line: we're here to help you succeed!"
-    }
-  },{
-    "@type": "Question",
-    "name": "I'm in. What do I need to do next?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Great! we look forward to working with you.
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
 
-Just choose your enrollment option, complete the sign up process, and you'll get immediate access to the members' area."
-    }
-  }]
-}
-</script>
+        .btn {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            font-weight: 600;
+            text-align: center;
+            border-radius: 0.375rem;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            font-size: 1.1rem;
+            border: none;
+        }
 
-  
+        .btn-primary {
+            background-color: var(--primary);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background-color: var(--primary-dark);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .btn-lg {
+            padding: 1rem 2rem;
+            font-size: 1.25rem;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .text-primary {
+            color: var(--primary);
+        }
+
+        .bg-white {
+            background-color: white;
+        }
+
+        .bg-light {
+            background-color: var(--light);
+        }
+
+        .bg-lighter {
+            background-color: var(--lighter);
+        }
+
+        .py-1 {
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+        }
+
+        .py-2 {
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+        }
+
+        .py-3 {
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
+        }
+
+        .py-4 {
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+        }
+
+        .py-5 {
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+        }
+
+        .py-6 {
+            padding-top: 4rem;
+            padding-bottom: 4rem;
+        }
+
+        .my-1 {
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .my-2 {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .my-3 {
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .my-4 {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .my-5 {
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+        }
+
+        .my-6 {
+            margin-top: 4rem;
+            margin-bottom: 4rem;
+        }
+
+        .section {
+            padding: 4rem 0;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .section-title h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .section-title p {
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 1.2rem;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 0.5rem;
+            box-shadow: var(--shadow);
+            padding: 2rem;
+            transition: all 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .checklist {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .checklist li {
+            position: relative;
+            padding-left: 2rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .checklist li:before {
+            content: "\f00c";
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            position: absolute;
+            left: 0;
+            top: 0.1rem;
+            color: var(--success);
+        }
+
+        .xlist {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .xlist li {
+            position: relative;
+            padding-left: 2rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .xlist li:before {
+            content: "\f00d";
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            position: absolute;
+            left: 0;
+            top: 0.1rem;
+            color: var(--danger);
+        }
+
+        .bullet-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .bullet-list li {
+            position: relative;
+            padding-left: 2rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .bullet-list li:before {
+            content: "\f054";
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            position: absolute;
+            left: 0;
+            top: 0.1rem;
+            color: var(--primary);
+            font-size: 0.8rem;
+        }
+
+        .feature-box {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 1.5rem;
+        }
+
+        .feature-icon {
+            flex-shrink: 0;
+            width: 3rem;
+            height: 3rem;
+            background-color: var(--primary);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 1rem;
+            font-size: 1.25rem;
+        }
+
+        .feature-content {
+            flex-grow: 1;
+        }
+
+        .feature-content h4 {
+            margin-bottom: 0.5rem;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            padding: 6rem 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+            color: white;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+
+        .cta-box {
+            background-color: white;
+            border-radius: 0.5rem;
+            box-shadow: var(--shadow-xl);
+            padding: 2rem;
+            max-width: 800px;
+            margin: -4rem auto 0;
+            position: relative;
+            z-index: 10;
+        }
+
+        .price {
+            font-size: 3rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+
+        .bonus-box {
+            border-left: 4px solid var(--primary);
+            padding: 1rem 1.5rem;
+            background-color: var(--lighter);
+            margin: 1.5rem 0;
+        }
+
+        .bonus-box h4 {
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .guarantee-badge {
+            display: inline-flex;
+            align-items: center;
+            background-color: var(--light);
+            padding: 0.5rem 1rem;
+            border-radius: 2rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .guarantee-badge i {
+            margin-right: 0.5rem;
+            color: var(--success);
+        }
+
+        .testimonial {
+            background-color: white;
+            border-radius: 0.5rem;
+            box-shadow: var(--shadow);
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            margin-top: 1rem;
+        }
+
+        .testimonial-author img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 1rem;
+        }
+
+        .testimonial-author-info h5 {
+            margin-bottom: 0.25rem;
+        }
+
+        .testimonial-author-info p {
+            margin-bottom: 0;
+            font-size: 0.9rem;
+            color: var(--gray);
+        }
+
+        .faq-item {
+            margin-bottom: 1rem;
+            border-bottom: 1px solid #e5e7eb;
+            padding-bottom: 1rem;
+        }
+
+        .faq-item h4 {
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .faq-item h4:after {
+            content: "\f078";
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            transition: all 0.3s ease;
+        }
+
+        .faq-item.active h4:after {
+            transform: rotate(180deg);
+        }
+
+        .faq-content {
+            display: none;
+            padding-top: 0.5rem;
+        }
+
+        .faq-item.active .faq-content {
+            display: block;
+        }
+
+        .footer {
+            background-color: var(--darker);
+            color: white;
+            padding: 3rem 0 1.5rem;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .footer-links a {
+            color: white;
+            margin: 0 1rem;
+            opacity: 0.7;
+        }
+
+        .footer-links a:hover {
+            opacity: 1;
+        }
+
+        .footer-disclaimer {
+            font-size: 0.8rem;
+            opacity: 0.6;
+            text-align: center;
+            margin-top: 1.5rem;
+        }
+
+        .footer-copyright {
+            text-align: center;
+            margin-top: 1.5rem;
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+
+        .logo {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 800;
+            font-size: 1.75rem;
+            color: white;
+            display: inline-block;
+        }
+
+        .logo span {
+            color: var(--secondary);
+        }
+
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            background-color: rgba(31, 41, 55, 0.95);
+            padding: 1rem 0;
+            transition: all 0.3s ease;
+        }
+
+        .header.scrolled {
+            box-shadow: var(--shadow-md);
+            padding: 0.5rem 0;
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header-cta .btn {
+            margin-left: 1rem;
+        }
+
+        /* Responsive styles */
+        @media (max-width: 992px) {
+            h1 {
+                font-size: 2.25rem;
+            }
+            
+            h2 {
+                font-size: 1.75rem;
+            }
+            
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .hero {
+                padding: 4rem 0;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .header-container {
+                flex-direction: column;
+            }
+            
+            .header-cta {
+                margin-top: 1rem;
+            }
+            
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .hero p {
+                font-size: 1.1rem;
+            }
+            
+            .feature-box {
+                flex-direction: column;
+            }
+            
+            .feature-icon {
+                margin-bottom: 1rem;
+                margin-right: 0;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .btn {
+                display: block;
+                width: 100%;
+                margin-bottom: 0.5rem;
+            }
+            
+            .header-cta .btn {
+                margin-left: 0;
+                margin-top: 0.5rem;
+            }
+            
+            .cta-box {
+                margin-top: -2rem;
+            }
+        }
+    </style>
 </head>
-
 <body>
-  
-  <section data-bs-version="5.1" class="menu menu2 cid-sFCw1qGFAI" once="menu" id="menu2-23">
-    
-    <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">GPT <span>Creator</span> Club</a>
+            <div class="header-cta">
+                <a href="#pricing" class="btn btn-primary">Join Now</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>Tired Of Watching Others Launch Cool GPTs While You Sit On The Sidelines?</h1>
+            <p>Get done-for-you custom GPTs every month with white label rights, sales copy, emails, and social content. Perfect for creators, coaches, and marketers.</p>
+            <a href="#pricing" class="btn btn-primary btn-lg">Get Started Today</a>
+        </div>
+    </section>
+
+    <!-- CTA Box -->
+    <div class="container">
+        <div class="cta-box">
+            <div class="text-center">
+                <div class="guarantee-badge">
+                    <i class="fas fa-shield-alt"></i> 14-Day Money Back Guarantee
+                </div>
+                <h3>Join Today & Get <span class="text-primary">3 Bonus GPTs</span> Worth $600+</h3>
+                <div class="price">$297</div>
+                <p>One-time payment for permanent access before we switch to $297/year pricing</p>
+                <a href="#pricing" class="btn btn-primary btn-lg">Yes, I Want This!</a>
+                <p class="my-2"><small>Risk-free 14-day guarantee</small></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- What is GPT Section -->
+    <section class="section bg-light">
         <div class="container">
-            <div class="navbar-brand">
-                <span cl="" ass="navbar-logo">
-                    <a href="https://gptcreatorclub.vercel.app/">
-                        <img src="images/nitehushpro-logo-121x40.png" alt="NiteHush Pro Logo">
-                    </a>
-                </span>
-                
+            <div class="section-title">
+                <h2>What is a GPT?</h2>
+                <p>A custom AI tool that can perform specific tasks like writing content, answering questions, generating ideas, or solving problems.</p>
             </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
-                    <li class="nav-item"><a class="nav-link link text-danger display-4" href="#content4-1q">About</a></li>
-                    <li class="nav-item"><a class="nav-link link text-danger display-4" href="#content4-5">Pricing</a></li>
-                    <li class="nav-item"><a class="nav-link link text-danger display-4" href="#content4-7">Benefits</a></li>
-                    <li class="nav-item"><a class="nav-link link text-danger display-4" href="#content4-9">Ingredients</a></li>
-                </ul>
-                <div class="navbar-buttons mbr-section-btn"><a class="btn btn-danger display-4" href="https://nitehushpro.com/text.php?affiliate=christosis">Order Now</a></div>
-            </div>
-        </div>
-    </nav>
-</section>
-
-
-
-
-
-<section data-bs-version="5.1" class="header14 cid-sFzxmVl7J6" id="header14-1f">
-
-    
-
-    
-
-    <div class="container">
-        <div class="row justify-content-center align-items-center">
-            <div class="col-12 col-md-5 image-wrapper">
-                <img style="border-radius: 20px;" src="images/nitehushpro-webp-1.webp" alt="NiteHush Pro Banner Image">
-            </div>
-            <div class="col-12 col-md">
-                <div class="text-wrapper">
-                    <h1 class="card-title mbr-fonts-style mb-4 display-5 mt-5 tex-start fw-bold ">Boost Respiratory Health & Sleep Quality Naturally!</h1>
-                    <p class="mbr-text mbr-fonts-style display-7">
-                        A restful night’s sleep starts with clear airways and steady breathing. NiteHush Pro is formulated with natural ingredients that support respiratory function, helping to reduce snoring and enhance oxygen flow. By improving airway relaxation, it promotes deeper, uninterrupted sleep for you and your loved ones.
-                    <br><br>
-                    With a blend of powerful botanicals and essential nutrients, NiteHush Pro helps soothe the throat and nasal passages while supporting lung health. Wake up feeling refreshed, energized, and free from the effects of poor sleep. Experience the benefits of improved respiratory wellness and reclaim the peaceful rest you deserve!
-                    <br></p>
-                    <div class="mbr-section-btn mt-3"><a class="btn btn-danger display-4" href="https://nitehushpro.com/text.php?affiliate=christosis">Official Website<br></a>
-                        <a class="btn btn-primary display-4" href="https://nitehushpro.com/text.php?affiliate=christosis">Order Now<br></a></div>
+            <div class="text-center">
+                <div class="card" style="max-width: 800px; margin: 0 auto;">
+                    <p>A GPT (short for Generative Pre-trained Transformer) is a custom AI tool built inside ChatGPT that can perform specific tasks like writing content, answering questions, generating ideas, or solving problems, based on how it's trained and prompted.</p>
+                    <p>Think of it like a mini app built on top of AI, a specialized tool rather than a general chatbot.</p>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-
-<section data-bs-version="5.1" class="content4 cid-uCLaBh2Vgm" id="content4-3">
-    
-    
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="title col-md-12 col-lg-12">
-                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><strong>How Does NiteHush Pro Work?</strong></h3>
-                
-                
+    <!-- Benefits Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>What Are the Benefits of Using a GPT?</h2>
+                <p>Whether someone is a business owner, creator, coach, or just needs help with everyday tasks. GPTs make life easier, faster, and more productive.</p>
             </div>
-        </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="content5 cid-uCLaPP1BBx" id="content5-4">
-    
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-12 col-lg-12">
-                
-                
-                <p class="mbr-text mbr-fonts-style display-7">
-                    NiteHush Pro is a scientifically formulated supplement designed to reduce snoring and improve sleep quality. It supports respiratory health by promoting clear airways, reducing inflammation, and enhancing oxygen circulation. By addressing the root causes of snoring, NiteHush Pro helps users achieve deep and restful sleep naturally Tinnitus Relief.
-                <br>
-                <br>
-                One of the key functions of NiteHush Pro is to relax the muscles in the throat and nasal passages. This prevents airway obstruction, which is a common cause of snoring. By keeping the airways open, the supplement allows for smooth airflow, minimizing disruptive nighttime noises.<br>
-                <br>NiteHush Pro contains a blend of natural ingredients known for their respiratory benefits. These ingredients help reduce mucus buildup, soothe irritated tissues, and support lung function. With regular use, users experience fewer breathing interruptions and improved sleep quality.
-                <br>
-                <br>
-                Another way NiteHush Pro works is by reducing inflammation in the airways. Chronic inflammation can lead to swelling and restricted airflow, making snoring worse. The supplement’s anti-inflammatory properties help alleviate these issues, allowing for easier breathing throughout the night.
-                <br>
-                <br>
-                NiteHush Pro also enhances oxygen absorption and circulation, ensuring that the body receives adequate oxygen during sleep. Proper oxygen levels contribute to overall health and energy levels, preventing fatigue and grogginess in the morning.
-                <br>
-                <br>
-                By improving sleep quality, NiteHush Pro helps reduce stress and supports cognitive function. Poor sleep is linked to memory issues, mood swings, and difficulty concentrating. With deeper, uninterrupted rest, users wake up feeling refreshed, alert, and ready to take on the day.
-                <br>
-                <br>
-                Unlike invasive treatments or uncomfortable devices, NiteHush Pro offers a natural and hassle-free solution for snoring. Its easy-to-take formula makes it a convenient option for anyone looking to enjoy better sleep, improved respiratory health, and enhanced overall well-being.
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<section data-bs-version="5.1" class="content4 cid-uCLai3UIG8" id="content4-2">
-    
-    
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="title col-md-12 col-lg-12">
-                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><strong>NiteHush Pro Customer Reviews</strong></h3>
-                
-                
-            </div>
-        </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="features3 cid-sFzFvgBfc0" id="features3-1p">
-    
-    
-    <div class="container">
-        
-        <div class="row mt-4">
-            <div class="item features-image col-12 col-md-6 col-lg-4 active">
-                <div class="item-wrapper">
-                    <div class="item-img pt-4">
-                        <img style="width: 70%; margin: auto; border-radius: 50%;" src="images/nitehushpro-customer-reviews-1.webp" alt="NiteHush Pro Customer Reviews 1" data-slide-to="1" data-bs-slide-to="1">
-                    </div>
-                    <div class="item-content">
-                        <h5 class="item-title mbr-fonts-style display-5"><strong>Life-Changing Sleep Solution!</strong></h5>
-                        
-                        <p class="mbr-text mbr-fonts-style mt-3 display-7">I’ve struggled with snoring for years, disturbing my wife’s sleep every night. After using NiteHush Pro for a few weeks, my snoring has drastically reduced. I wake up feeling refreshed, and my partner sleeps soundly. This supplement truly changed our nights for the better!</p>
-                    </div>
-                    <div class="mbr-section-btn item-footer mt-2"><a href="" class="btn item-btn btn-danger display-4" target="_blank">Sophia - Austin, USA</a></div>
-                </div>
-            </div><div class="item features-image col-12 col-md-6 col-lg-4">
-                <div class="item-wrapper">
-                    <div class="item-img pt-4">
-                        <img style="width: 70%; margin: auto; border-radius: 50%;" src="images/nitehushpro-customer-reviews-2.webp" alt="NiteHush Pro Customer Reviews 2" data-slide-to="2" data-bs-slide-to="2">
-                    </div>
-                    <div class="item-content">
-                        <h5 class="item-title mbr-fonts-style display-5"><strong>Finally, a Natural Snoring Remedy!</strong></h5>
-                        
-                        <p class="mbr-text mbr-fonts-style mt-3 display-7">I was skeptical at first, but NiteHush Pro exceeded my expectations. Unlike other products, it doesn’t cause discomfort or side effects. My breathing feels clearer, and I no longer wake up gasping for air. I highly recommend this to anyone dealing with snoring or poor sleep quality.</p>
-                    </div>
-                    <div class="mbr-section-btn item-footer mt-2"><a href="" class="btn item-btn btn-danger display-4" target="_blank">Michael - Los Angeles, USA</a></div>
-                </div>
-            </div><div class="item features-image col-12 col-md-6 col-lg-4">
-                <div class="item-wrapper">
-                    <div class="item-img pt-4">
-                        <img style="width: 70%; margin: auto; border-radius: 50%;" src="images/nitehushpro-customer-reviews-3.webp" alt="NiteHush Pro Customer Reviews 3" data-slide-to="1" data-bs-slide-to="1">
-                    </div>
-                    <div class="item-content">
-                        <h5 class="item-title mbr-fonts-style display-5"><strong>Works Better Than Expected!</strong></h5>
-                        
-                        <p class="mbr-text mbr-fonts-style mt-3 display-7">I’ve tried nasal strips and mouthpieces, but nothing worked as well as NiteHush Pro. Within days, my snoring reduced, and my sleep became much deeper. I no longer wake up multiple times during the night. This supplement truly delivers what it promises—peaceful, uninterrupted sleep.</p>
-                    </div>
-                    <div class="mbr-section-btn item-footer mt-2"><a href="" class="btn item-btn btn-danger display-4" target="_blank">David - Miami, USA</a></div>
-                </div>
-            </div>
-            
-            
-        </div>
-    </div>
-</section>
-
-
-
-<section data-bs-version="5.1" class="content4 cid-sFzIdnt1ra" id="content4-1q">
-    
-    
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="title col-md-12 col-lg-12">
-                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><strong>What Is NiteHush Pro?</strong></h3>
-                
-                
-            </div>
-        </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="header14 cid-sFzz5E692j" id="header14-1j">
-
-    
-
-    
-
-    <div class="container">
-        <div class="row justify-content-center align-items-center">
-            <div class="col-12 col-md-5 image-wrapper">
-                <img style="border-radius: 20px;" src="images/nitehushpro-1-bottles.webp" alt="NiteHush Pro About Image">
-            </div>
-            <div class="col-12 col-md">
-                <div class="text-wrapper">
-                    
-                    <p class="mbr-text mbr-fonts-style display-7">
-                        NiteHush Pro is a premium natural supplement designed to reduce snoring and improve sleep quality by supporting respiratory health. Its unique blend of botanicals, antioxidants, and essential nutrients helps open airways, promote nasal and throat relaxation, and enhance oxygen flow for uninterrupted, restful sleep.
-                    <br><br>
-                    By addressing the root causes of snoring and sleep disturbances, NiteHush Pro supports better breathing and overall respiratory function. Whether you struggle with nighttime congestion or disruptive snoring, this scientifically formulated supplement helps you wake up feeling refreshed, energized, and ready to take on the day.
-                    <br><br>
-                    NiteHush Pro works by promoting clear airways, reducing throat inflammation, and supporting optimal respiratory function. Its natural ingredients help relax the muscles in the throat and nasal passages, allowing for smoother airflow and minimizing snoring disturbances.
-                    
-                    <br><br>
-                    Yes, NiteHush Pro is formulated with carefully selected natural ingredients that are safe for daily use. It is free from harmful additives, non-GMO, and made under strict quality standards. However, if you have any medical conditions or are taking medications, consult your healthcare provider before use.<br></p>
-                    <div class="mbr-section-btn mt-3"><a class="btn btn-danger display-4" href="https://nitehushpro.com/text.php?affiliate=christosis">Buy Now</a></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-<section data-bs-version="5.1" class="content4 cid-uCLbjNZha4" id="content4-5">
-    
-    
-    <div class="container-fluid">
-        <div class="row justify-content-center">
-            <div class="title col-md-12 col-lg-12">
-                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><strong>Don't Miss Out on Your Chance to Save on NiteHush Pro</strong></h3>
-                <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-7"><strong>Claim Your Discounted NiteHush Pro</strong>�<strong style="font-size: 1.4rem;">Below While Stocks Last!</strong></h4>
-                
-            </div>
-        </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="image3 cid-uCLbCT6U0F" id="image3-6">
-    
-
-    
-    
-
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 col-lg-12">
-                <div class="image-wrapper">
-                    <a href="https://nitehushpro.com/text.php?affiliate=christosis"><img src="images/nitehushpro-price-1117x871.webp" alt="NiteHush Pro Price 1"></a>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-<section data-bs-version="5.1" class="content4 cid-uCL9NFLteM" id="content4-1">
-    
-    
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="title col-md-12 col-lg-12">
-                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><strong>Why to Choose NiteHush Pro?</strong></h3>
-                
-                
-            </div>
-        </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="team1 cid-sFzErVWEaH" id="team1-1o">
-    
-
-    
-    <div class="container">
-        <div class="row justify-content-center">
-            
-            <div class="col-sm-6 col-lg-3">
-                <div class="card-wrap">
-                    <div class="image-wrap">
-                        <img src="images/nitehush-pro-fda-approved.webp" alt="NiteHush Pro FDA Approved">
-                    </div>
-                    <div class="content-wrap">
-                        <h5 class="mbr-section-title card-title mbr-fonts-style align-center m-0 display-5"><strong>FDA Approved</strong></h5>
-                        
-                        <p class="card-text mbr-fonts-style align-center display-7">NiteHush Pro is made in an FDA-registered facility, ensuring strict compliance with safety regulations.<br></p>
-                        
-                        
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-lg-3">
-                <div class="card-wrap">
-                    <div class="image-wrap">
-                        <img src="images/nitehush-pro-all-natural.webp" alt="NiteHush Pro 100% Natural">
-                    </div>
-                    <div class="content-wrap">
-                        <h5 class="mbr-section-title card-title mbr-fonts-style align-center m-0 display-5"><strong>100% Natural</strong></h5>
-                        
-                        <p class="card-text mbr-fonts-style align-center display-7">Our formula is 100% natural, non-GMO, and gluten-free, making it safe for daily use. <br><br> </p>
-                        
-                        
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-lg-3">
-                <div class="card-wrap">
-                    <div class="image-wrap">
-                        <img src="images/nitehush-pro-made-in-usa.webp" alt="NiteHush Pro Made in USA">
-                    </div>
-                    <div class="content-wrap">
-                        <h5 class="mbr-section-title card-title mbr-fonts-style align-center m-0 display-5"><strong>Made in USA</strong></h5>
-                        
-                        <p class="card-text mbr-fonts-style align-center display-7">Manufactured in the USA, NiteHush Pro is formulated with high-quality ingredients for effectiveness.</p>
-                        
-                        
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-lg-3">
-                <div class="card-wrap">
-                    <div class="image-wrap">
-                        <img src="images/nitehush-pro-gmp-certified.webp" alt="NiteHush Pro GMP Certified">
-                    </div>
-                    <div class="content-wrap">
-                        <h5 class="mbr-section-title card-title mbr-fonts-style align-center m-0 display-5"><strong>GMP Certified</strong></h5>
-                        
-                        <p class="card-text mbr-fonts-style align-center display-7">Produced under GMP, ensuring premium pharmaceutical-grade quality and purity. <br><br></p>
-                        
-                        
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <ul class="checklist">
+                        <li><strong>Saves Time</strong>: GPTs can write content, answer questions, and complete tasks in seconds, so users don't have to start from scratch.</li>
+                        <li><strong>Boosts Productivity</strong>: They can help with writing emails, blog posts, social media captions, product ideas, and more, quickly and accurately.</li>
+                        <li><strong>Easy to Use</strong>: Anyone can chat with a GPT like they're messaging a friend. No learning curve, no special skills needed.</li>
+                        <li><strong>Customized</strong>: Each GPT is built to do something specific, like help with product creation, business ideas, content writing, or affiliate marketing.</li>
+                        <li><strong>Always Available</strong>: A GPT doesn't sleep or take breaks. It's ready to help 24/7, whenever the user needs it.</li>
+                        <li><strong>Affordable Help</strong>: It's like having a virtual assistant, but without paying a full-time salary.</li>
+                    </ul>
+                    <div class="text-center my-5">
+                        <p class="lead">As a GPT Creator Club member, you'll be the one providing these powerful AI tools, helping others save time, get results, and solve specific problems with ease.</p>
+                        <p class="lead">You're not just creating digital products... You're giving people real solutions they can use every day.</p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-
-
-<section data-bs-version="5.1" class="content4 cid-uCLcPrgLey" id="content4-7">
-    
-    
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="title col-md-12 col-lg-12">
-                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><strong>Benefits Of NiteHush Pro</strong></h3>
-                
-                
+    <!-- What You Get Section -->
+    <section class="section bg-light">
+        <div class="container">
+            <div class="section-title">
+                <h2>Here's What You Get Each Month</h2>
+                <p>With The GPT Creator Club</p>
             </div>
-        </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="content9 cid-uCLddYXYVz" id="content9-8">
-    
-
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="counter-container col-md-12 col-lg-12">
-                
-                <div class="mbr-text mbr-fonts-style display-7">
-                    <ol>
-                        <li><strong>Reduces Snoring Naturally: </strong>NiteHush Pro is formulated with powerful natural ingredients that help open airways and improve airflow. This results in reduced snoring, allowing both you and your partner to enjoy peaceful, uninterrupted sleep.</li>
-                        <li><strong>Enhances Respiratory Health:</strong> The supplement supports lung function by promoting better oxygen intake and reducing inflammation in the airways. This helps in smoother breathing throughout the night, improving overall respiratory wellness.</li>
-                        <li><strong>Promotes Deep and Restful Sleep: </strong>By reducing snoring and improving oxygen flow, NiteHush Pro allows you to enter deeper sleep cycles. This leads to better sleep quality, leaving you feeling refreshed and energized every morning.</li>
-                        <li><strong>Supports Cardiovascular Health: </strong>Snoring and poor sleep can contribute to heart-related issues. NiteHush Pro aids in maintaining healthy blood circulation, reducing the risk of cardiovascular problems linked to sleep disturbances.</li>
-                        <li><strong>100% Natural and Safe Formula: </strong>NiteHush Pro is made with carefully selected, non-GMO, and gluten-free ingredients. It contains no harmful chemicals, making it a safe and effective solution for long-term use.</li>
-                        <li><strong>Boosts Energy and Focus: </strong>With improved sleep quality, your body gets the rest it needs to function efficiently. This leads to higher energy levels, better focus, and enhanced productivity throughout the day.</li>
-                        <li><strong>Made in the USA & GMP Certified: </strong>Manufactured in an FDA-registered and GMP-certified facility, NiteHush Pro meets the highest quality and safety standards. You can trust its effectiveness in delivering lasting benefits for sleep and respiratory health.</li>
-                    </ol>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="content4 cid-uCLeLkOdOX" id="content4-d">
-    
-    
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="title col-md-12 col-lg-12">
-                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><strong>The Science of Snore-Free Sleep – NiteHush Pro!</strong></h3>
-                
-                
-            </div>
-        </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="header14 cid-uCLeMAaN8i" id="header14-e">
-
-    
-
-    
-
-    <div class="container">
-        <div class="row justify-content-center align-items-center">
-            <div class="col-12 col-md-4 image-wrapper">
-                <img style="border-radius: 20px;" src="images/breakthrough-scientific-innovation.webp" alt="Scientific Basis Of NiteHush Pro">
-            </div>
-            <div class="col-12 col-md">
-                <div class="text-wrapper">
-                    
-                    <p class="mbr-text mbr-fonts-style display-7">
-                        
-                        NiteHush Pro works by relaxing the throat muscles and reducing inflammation in the nasal passages. This helps open up the airways, preventing the vibrations that cause snoring and allowing for smoother, uninterrupted breathing throughout the night.
-                        
-                        <br><br>
-                        The natural ingredients in NiteHush Pro support healthy respiratory function by improving oxygen flow and reducing airway constriction. This ensures that you breathe more efficiently during sleep, reducing snoring and promoting better overall sleep quality.
-                        
-                        <br><br>
-                        By improving airflow and reducing snoring, NiteHush Pro helps you stay in deeper sleep cycles longer. This leads to more restorative sleep, increased energy levels, and better overall health upon waking.
-                        
-                        
-                    </p>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="content4 cid-uEKKzVQuO6" id="content4-2a">
-    
-    
-    <div class="container-fluid">
-        <div class="row justify-content-center">
-            <div class="title col-md-12 col-lg-12">
-                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><strong>That Is Why We Have Created NiteHush Pro</strong></h3>
-                
-                
-            </div>
-        </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="header14 cid-uEKKy6SdGa" id="header14-29">
-
-    
-
-    
-
-    <div class="container">
-        <div class="row justify-content-center align-items-center">
-            <div class="col-12 col-md-5 image-wrapper">
-                <img style="border-radius: 20px;" src="images/nitehushpro-reason.webp" alt="NiteHush Pro Reason">
-            </div>
-            <div class="col-12 col-md">
-                <div class="text-wrapper">
-                    
-                    <p class="mbr-text mbr-fonts-style display-7">
-                      <strong>A Natural Solution for Snoring: </strong>
-                        NiteHush Pro was carefully designed to address the root causes of snoring using natural ingredients. By targeting airway obstruction and promoting muscle relaxation, it helps you breathe easily and sleep more soundly without disruptive snoring.
-                        <br><br>
-                      <strong>Backed by Science and Research: </strong>
-                        Formulated with scientifically proven ingredients, NiteHush Pro supports respiratory health and improves sleep quality. Its unique blend helps open airways, reduce inflammation, and enhance breathing patterns for a peaceful, uninterrupted night’s sleep.
-                        <br><br>
-                      <strong>Safe, Effective, and Natural: </strong>
-                        NiteHush Pro is crafted in an FDA-registered, GMP-certified facility, ensuring safety and potency. It's 100% natural, non-GMO, and gluten-free, making it a trusted choice for improving sleep quality and reducing snoring naturally.
-                        
-                        <br><br>
-                      <strong>Restful Sleep for You and Your Partner: </strong>
-                        Snoring affects not just you but also your partner’s sleep quality. NiteHush Pro promotes smoother breathing and deeper sleep, helping both you and your partner wake up refreshed and energized without the nightly disruptions.
-                        <br><br>
-                       <strong>Easy to Use and Fast-Acting: </strong>
-                        NiteHush Pro is designed for convenience and quick results. Simply take the recommended dose before bed, and let the natural ingredients work to open your airways and relax your muscles, leading to quiet, restorative sleep.
-                    </p>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="content4 cid-uCLenIO3Fj" id="content4-b">
-    
-    
-    <div class="container-fluid">
-        <div class="row justify-content-center">
-            <div class="title col-md-12 col-lg-12">
-                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><strong>100% Satisfaction, 60 Days Money-Back Guarantee</strong></h3>
-                
-                
-            </div>
-        </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="header14 cid-uCLeqlrCHu" id="header14-c">
-
-    
-
-    
-
-    <div class="container">
-        <div class="row justify-content-center align-items-center">
-            <div class="col-12 col-md-4 image-wrapper">
-                <img style="border-radius: 20px;" src="images/nitehushpro-money-back-gurnatee.webp" alt="NiteHush Pro 60 Day Money Back Guarantee">
-            </div>
-            <div class="col-12 col-md">
-                <div class="text-wrapper">
-                    
-                    <p class="mbr-text mbr-fonts-style display-7">We are confident that NiteHush Pro will help you achieve peaceful, snore-free sleep. That’s why we offer a 60-day money-back guarantee. If you’re not completely satisfied, simply return the product within 60 days for a full refund—no questions asked.
-                        <br>
-                        <br>Your satisfaction is our top priority. With our 60-day money-back guarantee, you can try NiteHush Pro risk-free. If you don’t experience improved sleep and reduced snoring, you can return it within 60 days for a hassle-free refund.</p>
-                    <div class="mbr-section-btn mt-3"><a class="btn btn-danger display-4" href="https://nitehushpro.com/text.php?affiliate=christosis">GET NITEHUSH PRO TODAY</a></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="content4 cid-uCLdCLX4o1" id="content4-9">
-    
-    
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="title col-md-12 col-lg-12">
-                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><strong>NiteHush Pro Key Ingredients</strong></h3>
-                
-                
-            </div>
-        </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="features20 cid-uCLdLi27Si" id="features20-a">
-
-    
-
-    
-    
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-12 col-lg-12">
-                <div class="card-wrapper pb-4">
-                    <div class="card-box align-center">
-                        
-                        <p class="mbr-text mbr-fonts-style mb-4 display-7">NiteHush Pro combines powerful ingredients like Citrus Hesperidin, Ivy Extract, Liposomal Quercetin, Glucoraphanin, and Naringin to support respiratory health, improve circulation, and enhance overall sleep quality naturally.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-12">
-                <div class="item mbr-flex">
-                    <div class="icon-box">
-                        <span class="step-number mbr-fonts-style display-5">1</span>
-                    </div>
-                    <div class="text-box">
-                        <h4 class="icon-title card-title mbr-black mbr-fonts-style display-7"><strong>Citrus Hesperidin:</strong></h4>
-                        <h5 class="icon-text mbr-black mbr-fonts-style display-4">Citrus Hesperidin, found in citrus fruits, supports respiratory health by improving microcirculation and oxygen delivery. Its antioxidant and anti-inflammatory properties help reduce oxidative stress, promoting better sleep and overall energy levels.</h5>
-                    </div>
-                </div>
-                <div class="item mbr-flex">
-                    <div class="icon-box">
-                        <span class="step-number mbr-fonts-style display-5">2</span>
-                    </div>
-                    <div class="text-box">
-                        <h4 class="icon-title card-title mbr-black mbr-fonts-style display-7"><strong>Ivy extract:</strong></h4>
-                        <h5 class="icon-text mbr-black mbr-fonts-style display-4"><div>Derived from Hedera helix, Ivy Extract soothes the throat and promotes expectoration, making breathing easier during sleep. It reduces airway inflammation and supports lung health, improving overall respiratory function.</div></h5>
-                    </div>
-                </div>
-                <div class="item mbr-flex">
-                    <div class="icon-box">
-                        <span class="step-number mbr-fonts-style display-5">3</span>
-                    </div>
-                    <div class="text-box">
-                        <h4 class="icon-title card-title mbr-black mbr-fonts-style display-7"><strong>Liposomal Quercetin:</strong></h4>
-                        <h5 class="icon-text mbr-black mbr-fonts-style display-4">Liposomal Quercetin is a highly bioavailable form of Quercetin, known for its antioxidant and anti-inflammatory benefits. It helps reduce allergic responses and supports respiratory health, ensuring better breathing and restful sleep.</h5>
-                    </div>
-                </div>
-                <div class="item mbr-flex">
-                    <div class="icon-box">
-                        <span class="step-number mbr-fonts-style display-5">4</span>
-                    </div>
-                    <div class="text-box">
-                        <h4 class="icon-title card-title mbr-black mbr-fonts-style display-7"><strong>Glucoraphanin:</strong></h4>
-                        <h5 class="icon-text mbr-black mbr-fonts-style display-4">Found in broccoli, Glucoraphanin is a precursor to sulforaphane, which protects against oxidative stress and inflammation. It supports detoxification and strengthens immune function, contributing to overall health and better sleep.</h5>
-                    </div>
-                </div>
-                <div class="item mbr-flex last">
-                    <div class="icon-box">
-                        <span class="step-number mbr-fonts-style display-5">5</span>
-                    </div>
-                    <div class="text-box">
-                        <h4 class="icon-title card-title mbr-black mbr-fonts-style display-7"><strong>Narigin:</strong></h4>
-                        <h5 class="icon-text mbr-black mbr-fonts-style display-4">Sourced from grapefruit, Naringin enhances nutrient absorption and promotes better blood circulation. It helps improve oxygenation, reducing sleep disturbances and ensuring deeper, more restful sleep.</h5>
-                    </div>
-                </div>
-                
-                
-                
-                
-                
-            </div>
-        </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="content4 cid-uCLfiFQEC3" id="content4-f">
-    
-    
-    <div class="container-fluid">
-        <div class="row justify-content-center">
-            <div class="title col-md-12 col-lg-12">
-                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><strong>Get Two Free Bonuses With Our Six-Bottle Combo</strong></h3>
-                
-                
-            </div>
-        </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="header14 cid-uCL58ibkx4" id="header14-0">
-
-    
-
-    
-
-    <div class="container">
-        <div class="row justify-content-center align-items-center">
-            <div class="col-12 col-md-3 image-wrapper">
-                <img src="images/nitehushpro-bonues-1-816x950.webp" alt="Nite Hush Pro Free Bonus 1">
-            </div>
-            <div class="col-12 col-md">
-                <div class="text-wrapper">
-                    <h2 class="mbr-section-title mbr-fonts-style mb-3 display-5"><strong>The Heart Bible:</strong>10 At-Home Secrets To Stop High Blood Pressure, Increase Circulation And Feel Decades Younger</h2>
-                    <p class="mbr-text mbr-fonts-style display-7">This powerful guide reveals proven, at-home techniques to boost circulation and lower blood pressure in just a few days — helping you feel more energized and youthful.<br></p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="header14 cid-uCLUDkUS35" id="header14-n">
-
-    
-
-    
-
-    <div class="container">
-        <div class="row justify-content-center align-items-center">
-            <div class="col-12 col-md-3 image-wrapper">
-                <img src="images/nitehushpro-bonues-2-816x952.webp" alt="Nite Hush Pro Free Bonus 2">
-            </div>
-            <div class="col-12 col-md">
-                <div class="text-wrapper">
-                    <h2 class="mbr-section-title mbr-fonts-style mb-3 display-5"><strong>Sharp As A Tack:</strong><br>Simple Tips To Reboot Your Brain For A Bulletproof Memory And Total Focus In 7 Days</h2>
-                    <p class="mbr-text mbr-fonts-style display-7">Discover effective, easy-to-follow strategies to enhance cognitive function, improve memory, and sharpen focus in just a week. Take advantage of this limited-time offer and unlock the full benefits of NiteHush Pro today! <br></p>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-
-<section data-bs-version="5.1" class="content4 cid-uCLfXuQ6kU" id="content4-g">
-    
-    
-    <div class="container-fluid">
-        <div class="row justify-content-center">
-            <div class="title col-md-12 col-lg-12">
-                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><strong>Don't Miss Out Purchase and Save Discount on NiteHush Pro</strong></h3>
-                
-                
-            </div>
-        </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="image3 cid-uCLg085i1V" id="image3-h">
-    
-
-    
-    
-
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 col-lg-12">
-                <div class="image-wrapper">
-                    <a href="https://nitehushpro.com/text.php?affiliate=christosis"><img src="images/nitehushpro-price-1117x871.webp" alt="Nite Hush Pro Price 2"></a>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="tabs content18 cid-uDNvlk4kF3" id="tabs1-1w">
-
-    
-
-    
-    
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-12">
-                <h3 class="mbr-section-title mb-0 mbr-fonts-style display-2"><strong>NiteHush Pro Pros and Cons</strong></h3>
-                
-            </div>
-        </div>
-        <div class="row justify-content-center mt-4">
-            <div class="col-12 col-md-12">
-                <ul class="nav nav-tabs mb-4" role="tablist">
-                    <li class="nav-item first mbr-fonts-style"><a class="nav-link mbr-fonts-style show active display-7" role="tab" data-toggle="tab" data-bs-toggle="tab" href="#tabs1-1w_tab0" aria-selected="true"><strong>Pros</strong></a></li>
-                    <li class="nav-item"><a class="nav-link mbr-fonts-style active display-7" role="tab" data-toggle="tab" data-bs-toggle="tab" href="#tabs1-1w_tab1" aria-selected="true"><strong>Cons</strong></a></li>
-                    
-                    
-                    
-                    
-                </ul>
-                <div class="tab-content">
-                    <div id="tab1" class="tab-pane in active" role="tabpanel">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <p class="mbr-text mbr-fonts-style display-7">Supports improved respiratory health and better sleep quality.
-                                <br> <br>
-                              ✅Contains 100% natural, non-GMO, and gluten-free ingredients. <br> <br>
-                            ✅Backed by a 60-day money-back guarantee for peace of mind. <br> <br>
-                            ✅Formulated in an FDA-registered and GMP-certified facility. <br> <br>
-                            ✅Enhances circulation and reduces snoring naturally.</p>
-                                                            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h4>A Custom GPT</h4>
+                            <p>Includes White Label Rights so you can rebrand, rename, and sell it as your own – or use it as a list-building magnet.</p>
                         </div>
                     </div>
-                    <div id="tab2" class="tab-pane" role="tabpanel">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <p class="mbr-text mbr-fonts-style display-7">
-                                    
-                                    ❌Only available for purchase through the official website.<br> <br>
-                            ❌Results may vary depending on individual health conditions.<br> <br>
-                            ❌Not recommended for individuals with citrus or plant-based allergies.
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h4>Sales Page Copy</h4>
+                            <p>Professional direct-response copy, written to convert leads into buyers. Just plug it into your page builder or funnel.</p>
+                        </div>
+                    </div>
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h4>Email Sequence</h4>
+                            <p>Professionally written, ready-to-send emails so you can confidently promote your GPT to your list or audience with ease.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h4>Social Media Creatives</h4>
+                            <p>For X, LinkedIn, and Facebook. Complete with professionally written captions and strategic image suggestions to streamline your promotion.</p>
+                        </div>
+                    </div>
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h4>Full Training</h4>
+                            <p>A comprehensive video walkthrough that clearly shows you how to use, edit, and personalize your GPT for maximum effectiveness and engagement.</p>
+                        </div>
+                    </div>
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h4>User Guide Template</h4>
+                            <p>A professionally designed guide you can share with your buyers to ensure they feel confident, supported, and fully equipped to use your GPT effectively.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                                </p>
+    <!-- Who This Is For Section -->
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <h3>Who This Is For</h3>
+                        <p>The GPT Creator Club is designed for creators, coaches, and marketers who understand the power of offering custom GPTs but don't want to waste time wrestling with prompts, testing, tech, or writing all the supporting content from scratch.</p>
+                        <p>It's for anyone who wants the benefits of selling or sharing GPTs without the overwhelm that usually comes with building them.</p>
+                        <ul class="checklist">
+                            <li><strong>You're a beginner</strong> who wants to offer high-value digital products without hiring a developer or copywriter.</li>
+                            <li><strong>You're a busy professional</strong> who likes the idea of custom GPTs but don't have time to figure out the tech.</li>
+                            <li><strong>You're an aspiring digital product creator</strong> who wants to boost your authority by offering smart AI tools under your own brand.</li>
+                            <li><strong>You've struggled with information overload</strong> and need done-for-you assets you can launch quickly and easily.</li>
+                            <li><strong>You're a coach, consultant, or freelancer</strong> who wants plug-and-play tools that generate revenue, leads, and engagement.</li>
+                            <li><strong>You prefer focusing on promotion and growth</strong> – not writing prompts and training videos.</li>
+                            <li><strong>You're ready to embrace AI</strong> to fast-track your results and discover how to let cutting-edge GPTs do the heavy lifting for you.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <h3>Who This Is NOT For</h3>
+                        <p>The GPT Creator Club is NOT for you if:</p>
+                        <ul class="xlist">
+                            <li><strong>You're looking for a get-rich-quick scheme.</strong> The GPT Creator Club is about building a real, sustainable business, and that requires effort, consistency, and focus.</li>
+                            <li><strong>You're unwilling to take action.</strong> If you're not ready to roll up your sleeves and implement the steps to create your brand, this program won't deliver the results you're looking for.</li>
+                            <li><strong>You refuse to embrace new tools and strategies</strong> – especially AI, and aren't interested in learning how GPTs can support your business.</li>
+                        </ul>
+                        <div class="text-center my-4">
+                            <p>If any of these apply to you, then the The GPT Creator Club may not be the best option.</p>
+                            <p>But if you're ready to take action and follow a proven system, The GPT Creator Club can help you achieve incredible results.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bonuses Section -->
+    <section class="section bg-primary text-white">
+        <div class="container">
+            <div class="section-title">
+                <h2>Plus! Join Today & Unlock These Fast-Action Bonuses</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="bonus-box bg-white text-dark">
+                        <h4>3 Additional GPTs Right Away</h4>
+                        <p>We don't believe in slow starts. You'll hit the ground running with 3 additional fully loaded bonus GPTs ready for action from day one.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="bonus-box bg-white text-dark">
+                        <h4>1-on-1 Strategy Call With Randy</h4>
+                        <p>Let's map your GPT monetization game plan together. You'll leave this call with clear next steps and quick wins.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center my-4">
+                <h3>Total Bonus Value: Over $600+ (Yours FREE with any plan)</h3>
+                <p>These bonuses are only available during this special offer window, and they're designed to help you get results from day one.</p>
+                <p>So if you're ready to hit the ground running, there's never been a better time to join.</p>
+            </div>
+            <div class="text-center">
+                <h3>Your GPT Ideas, Built By Us</h3>
+                <p>Suggest GPTs you want us to create, and we'll add the best ones in the upcoming months. Yes, you can influence the club roadmap.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Guarantee Section -->
+    <section class="section">
+        <div class="container">
+            <div class="card">
+                <div class="text-center">
+                    <h2>Love It Or Your Money Back!</h2>
+                    <p class="lead">Let us make this decision as easy as possible for you.</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 mx-auto">
+                        <p>We believe in The GPT Creator Club so strongly that we're backing it with a 100% satisfaction guarantee for 14 days, no conditions, no catch.</p>
+                        <p><strong>Here's how it works:</strong></p>
+                        <p>Join today and explore everything inside. Check out the training. Use the tools. Download the GPTs. Start putting them to work.</p>
+                        <p>And if for any reason you decide it's not for you within 14 days, just let us know and we'll refund your full investment, no questions asked.</p>
+                        <p><strong>And you can still keep any GPTs or resources you downloaded, just for giving it a try.</strong></p>
+                        <p>Why are we so generous?</p>
+                        <p>Because we want this to be a no-brainer decision.</p>
+                        <p><strong>We're here to help you succeed</strong>, not pressure you into something you're unsure about.</p>
+                        <p><strong>You have absolutely nothing to lose...</strong> and a future full of AI-powered possibilities to gain.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="section bg-light">
+        <div class="container">
+            <div class="section-title">
+                <h2>The Time To Act Is Now!</h2>
+                <p>The GPT Creator Club gives you everything you need to build a scalable digital business with AI, even if you're brand new or short on time.</p>
+            </div>
+            <div class="text-center">
+                <p class="lead"><strong>Right now</strong>, during this special introductory window, <strong>you can lock in permanent access for just $297</strong>, before we move to a $297/year pricing model.</p>
+                <p class="lead">This is your chance to get ahead of the AI curve with monthly assets delivered and <strong>ready to be branded as your own</strong>.</p>
+            </div>
+            <div class="row my-5">
+                <div class="col-md-8 mx-auto">
+                    <div class="card">
+                        <div class="text-center">
+                            <h3>Here's Everything You'll Get Every Month</h3>
+                            <p>When You Join The GPT Creator Club</p>
+                        </div>
+                        <ul class="bullet-list">
+                            <li><strong>A Custom GPT With White Label Rights.</strong> Rebrand it, Rename it, And Sell Or Share it Under Your Own Brand.</li>
+                            <li><strong>Sales Page Copy.</strong> Professional Direct-Response Copy You Can Plug into Your Funnel Or Page Builder</li>
+                            <li><strong>Professionally Written, Ready-To-Send Email Sequence.</strong> Ready-To-Send Promotional Emails To Help You Drive Traffic And Sales</li>
+                            <li><strong>Social Media Creatives For Each GPT.</strong> Captions And Image Ideas For X, LinkedIn, And Facebook, Done For You</li>
+                            <li><strong>Full Training For Each GPT.</strong> Step-By-Step Video Walkthrough Showing How To Edit, Personalize, And Launch Your GPT</li>
+                            <li><strong>User Guide Template.</strong> A Professionally Designed Guide To Help Your Customers Use Your GPTs With Confidence</li>
+                            <li><strong>Ongoing Support.</strong> Get Help When You Need It. We're Here To Guide You Every Step Of The Way</li>
+                        </ul>
+                        <div class="bonus-box">
+                            <h4>BONUS #1: 3 Extra GPTs – Fully Branded & Ready To Use ($111 Value)</h4>
+                            <p>We Don't Believe in Slow Starts. The Moment You Join, You'll Get Instant Access To 3 More Powerful GPTs With Full White Label Rights. Use Them To Build Your List, Sell As Digital Products. Or Bundle Into Affiliate Promotions – All Under Your Own Brand.</p>
+                        </div>
+                        <div class="bonus-box">
+                            <h4>BONUS #2: 1-On-1 Strategy Call With Randy ($297 Value)</h4>
+                            <p>Get A Private Call With GPT Strategist Randy Smith To Map Out Your Personalized GPT Monetization Plan. Whether You're Selling, List-Building, Or Creating Offers, You'll Walk Away With A Custom Strategy. Actionable Steps, And Clarity On Exactly What To Do Next.</p>
+                        </div>
+                        <div class="bonus-box">
+                            <h4>BONUS #3: Your GPT Ideas, Built By Us (Value = Priceless)</h4>
+                            <p>Have A Great GPT Idea? Tell Us! As A GPT Creator Club Member, You'll Get The Opportunity To Suggest GPTs You'd Love To Offer. We Review Submissions Regularly And Turn The Best Ideas Into Real Products Delivered In Future Months. You Don't Just Use The GPT Creator Club. You Help Shape It.</p>
+                        </div>
+                        <div class="text-center my-4">
+                            <div class="guarantee-badge">
+                                <i class="fas fa-shield-alt"></i> 14-Day 'Love It or Leave It' Guarantee
                             </div>
+                            <p>We're So Confident You'll Love The GPT Creator Club That We're Backing It With A 100% Risk-Free, 14-Day Money-Back Guarantee. Try It Out. Explore The Tools. Launch Your First GPT. And if You're Not Completely Satisfied for Any Reason, Just Let Us Know And We'll Refund Every Penny. No Questions Asked. No Hoops To Jump Through. And Yes, You Get To Keep The GPTs You've Downloaded.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="price">$297</div>
+                            <p>One-time payment for permanent access</p>
+                            <a href="#" class="btn btn-primary btn-lg">Join The GPT Creator Club Now</a>
+                            <p class="my-2"><small>Risk-free 14-day guarantee</small></p>
                         </div>
                     </div>
-                    
-                    
-                    
-                    
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<section data-bs-version="5.1" class="content4 cid-uCLgmEEkHS" id="content4-j">
-    
-    
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="title col-md-12 col-lg-12">
-                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><strong>Frequently Asked Questions About NiteHush Pro</strong></h3>
-                
-                
+    <!-- Final CTA Section -->
+    <section class="section bg-dark text-white">
+        <div class="container">
+            <div class="section-title">
+                <h2>Which Path Will You Take?</h2>
             </div>
-        </div>
-    </div>
-</section>
-
-
-<section data-bs-version="5.1" class="content16 cid-uCLgkUcUWO" id="content16-i">  
-    <div class="container">  
-        <div class="row justify-content-center">  
-            <div class="col-12 col-md-11">  
-                <div id="bootstrap-accordion_32" class="panel-group accordionStyles accordion" role="tablist" aria-multiselectable="true">  
-                    
-                    <!-- FAQ 1 -->
-                    <div class="card mb-3">  
-                        <div class="card-header" role="tab" id="headingOne">  
-                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" href="#collapse1_32" aria-expanded="false" aria-controls="collapse1">  
-                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>How to NiteHush Pro work?</strong></h6>  
-                                <span class="sign mbr-iconfont mbri-arrow-down"></span>  
-                            </a>  
-                        </div>  
-                        <div id="collapse1_32" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_32">  
-                            <div class="panel-body">  
-                                <p class="mbr-fonts-style panel-text display-4">NiteHush Pro is designed to enhance sleep quality and reduce snoring by improving respiratory health and clearing nasal congestion for easier breathing.</p>  
-                            </div>  
-                        </div>  
-                    </div>  
-
-                    <!-- FAQ 2 -->
-                    <div class="card mb-3">  
-                        <div class="card-header" role="tab" id="headingTwo">  
-                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" href="#collapse2_32" aria-expanded="false" aria-controls="collapse2">  
-                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>What is your money-back guarantee?</strong></h6>  
-                                <span class="sign mbr-iconfont mbri-arrow-down"></span>  
-                            </a>  
-                        </div>  
-                        <div id="collapse2_32" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_32">  
-                            <div class="panel-body">  
-                                <p class="mbr-fonts-style panel-text display-4">NiteHush Pro offers a 60-day money-back guarantee. If you’re not satisfied, return the product within 60 days for a full refund — no questions asked.</p>  
-                            </div>  
-                        </div>  
-                    </div>  
-
-                    <!-- FAQ 3 -->
-                    <div class="card mb-3">  
-                        <div class="card-header" role="tab" id="headingThree">  
-                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" href="#collapse3_32" aria-expanded="false" aria-controls="collapse3">  
-                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>How many bottles should I order?</strong></h6>  
-                                <span class="sign mbr-iconfont mbri-arrow-down"></span>  
-                            </a>  
-                        </div>  
-                        <div id="collapse3_32" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_32">  
-                            <div class="panel-body">  
-                                <p class="mbr-fonts-style panel-text display-4">We recommend ordering the six-bottle package for uninterrupted supply and maximum benefits. Plus, you'll receive free bonuses and free shipping.</p>  
-                            </div>  
-                        </div>  
-                    </div>  
-
-                    <!-- FAQ 4 -->
-                    <div class="card mb-3">  
-                        <div class="card-header" role="tab" id="headingFour">  
-                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" href="#collapse4_32" aria-expanded="false" aria-controls="collapse4">  
-                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>How do I take NiteHush Pro?</strong></h6>  
-                                <span class="sign mbr-iconfont mbri-arrow-down"></span>  
-                            </a>  
-                        </div>  
-                        <div id="collapse4_32" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingFour" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_32">  
-                            <div class="panel-body">  
-                                <p class="mbr-fonts-style panel-text display-4">Take one gummy daily before bedtime for optimal results. It’s easy and convenient to use.</p>  
-                            </div>  
-                        </div>  
-                    </div>  
-
-                    <!-- FAQ 5 -->
-                    <div class="card mb-3">  
-                        <div class="card-header" role="tab" id="headingFive">  
-                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" href="#collapse5_32" aria-expanded="false" aria-controls="collapse5">  
-                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>Should I take NiteHush Pro daily?</strong></h6>  
-                                <span class="sign mbr-iconfont mbri-arrow-down"></span>  
-                            </a>  
-                        </div>  
-                        <div id="collapse5_32" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingFive" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_32">  
-                            <div class="panel-body">  
-                                <p class="mbr-fonts-style panel-text display-4">Yes, for best results, take NiteHush Pro daily to support respiratory health and improve sleep quality.</p>  
-                            </div>  
-                        </div>  
-                    </div>  
-
-                    <!-- FAQ 6 -->
-                    <div class="card mb-3">  
-                        <div class="card-header" role="tab" id="headingSix">  
-                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" href="#collapse6_32" aria-expanded="false" aria-controls="collapse6">  
-                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>How can I place a NiteHush Pro order?</strong></h6>  
-                                <span class="sign mbr-iconfont mbri-arrow-down"></span>  
-                            </a>  
-                        </div>  
-                        <div id="collapse6_32" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingSix" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_32">  
-                            <div class="panel-body">  
-                                <p class="mbr-fonts-style panel-text display-4">To order, click the "Order Now" button, fill in your details, and confirm your purchase. Our team will follow up to ensure a smooth process.</p>  
-                            </div>  
-                        </div>  
-                    </div>  
-
-                </div>  
-            </div>  
-        </div>  
-    </div>  
-</section>
-
-
-
-<section data-bs-version="5.1" class="content4 cid-uCLh8aejwU" id="content4-k">
-    
-    
-    <div class="container-fluid">
-        <div class="row justify-content-center">
-            <div class="title col-md-12 col-lg-12">
-                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-5"><strong>� Don't Wait Any Longer! Join Your Discounted Supplement Now!</strong></h3>
-                
-                
-            </div>
-        </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="image3 cid-uCLnctJ2B5" id="image3-m">
-    
-
-    
-    
-
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 col-lg-5">
-                <div class="image-wrapper">
-                    <a href="https://nitehushpro.com/text.php?affiliate=christosis"><img style="border-radius: 20px;" src="images/breakthrough-scientific-innovation.webp" alt="NiteHush Pro Discounted Supplement Order Now"></a>
-                    <p class="mbr-description mbr-fonts-style mt-2 align-center display-5"><br><strong>Regular Price: </strong>$100/Bottle<br><strong>Today Just For: </strong>$49/ Bottle<br></p>
-                    
-                    <div style="display: flex; justify-content: center;" class="mbr-section-btn mt-3 "><a class="btn btn-danger display-4 " href="https://nitehushpro.com/text.php?affiliate=christosis">GET YOUR NITEHUSH PRO TODAY</a></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="contacts4 cid-sFAyMcKwph" id="contacts4-21">
-
-    
-
-    
-
-    <div class="container">
-        <div class="row align-items-center justify-content-center">
-            <div class="text-content col-12 col-md-6">
-                <h2 class="mbr-section-title mbr-fonts-style display-5">
-                    <strong>Follow Us</strong>
-                </h2>
-                <p class="mbr-text mbr-fonts-style display-7">Why wait? Tap the button below to follow along and order now! Get your Is NiteHush Pro today and kickstart your journey and transform your whole life. <br></p>
-            </div>
-            <div class="icons d-flex align-items-center col-12 col-md-6 justify-content-end mt-md-0 mt-2 flex-wrap">
-                <a href="https://twitter.com" target="_blank">
-                    <span class="mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
-                </a>
-                <a href="https://www.facebook.com" target="_blank">
-                    <span class="mbr-iconfont mbr-iconfont-social socicon-facebook socicon"></span>
-                </a>
-                <a href="https://www.youtube.com" target="_blank">
-                    <span class="mbr-iconfont mbr-iconfont-social socicon-youtube socicon"></span>
-                </a>
-                <a href="https://instagram.com" target="_blank">
-                    <span class="mbr-iconfont mbr-iconfont-social socicon-instagram socicon"></span>
-                </a>
-                
-                
-                
-                
-                
-                
-            </div>
-        </div>
-    </div>
-    
-</section>
-
-<section data-bs-version="5.1" class="content5 cid-uCLmOHFEzd" id="content5-l">
-    
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-12 col-lg-12">
-                <h2 class="mbr-section-title mbr-fonts-style mb-4 display-5"><strong>FDA Compliance</strong></h2>
-                
-                <p class="mbr-text mbr-fonts-style display-7">The content and information presented on this page are solely for informational purposes and should not be construed as medical advice, diagnosis, treatment, cure, or prevention of any disease. Statements on this page have not been evaluated by the FDA. It is crucial to consult with a licensed healthcare professional before incorporating any supplements or making changes to your diet or exercise regimen. Individual outcomes may vary.
-<br>
-<br>The presence of third-party trademarks and trade names on this Official Site does not necessarily imply endorsement or affiliation with our website. Clicking on a merchant link and purchasing a product or service on their site may result in us receiving a fee from the merchant.<br></p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="footer3 cid-sFCygHrmNf" once="footers" id="footer3-24">
-
-    
-
-    
-
-    <div class="container">
-        <div class="row align-center mbr-white">
-            <div class="row row-links">
-                <ul class="foot-menu">
-                    
-                    
-                    
-                    
-                    
-                <li class="foot-menu-item mbr-fonts-style display-7"><a href="https://gptcreatorclub.vercel.app/privacy_policy.html" class="text-white">Privacy Policy</a></li><li class="foot-menu-item mbr-fonts-style display-7"><strong><a href="https://gptcreatorclub.vercel.app/disclaimer.html" class="text-white text-primary">Disclaimer</a></strong></li><li class="foot-menu-item mbr-fonts-style display-7"><strong><a href="https://gptcreatorclub.vercel.app/terms_and_conditions.html" class="text-white">Terms and Conditions</a></strong></li></ul>
-            </div>
-            
-            <div class="row row-copirayt">
-                <p class="mbr-text mb-0 mbr-fonts-style mbr-white align-center display-7">
-                    © Copyright <a href="https://gptcreatorclub.vercel.app/" class="text-primary">NiteHush Pro </a>All Rights Reserved.
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-
-<script src="js/bootstrap.bundle.min.js"></script>  <script src="js/smooth-scroll.js"></script>  <script src="js/index.js"></script>  <script src="js/navbar-dropdown.js"></script>  <script src="js/mbr-tabs.js"></script>  <script src="js/mbr-switch-arrow.js"></script>  <script src="js/social-likes.js"></script>  <script src="js/script.js"></script>  
-  
-  
-
-</body></html>
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <p>Let's take a moment to imagine where you'll be a few weeks or months from now if you don't take advantage of this opportunity.</p>
+                    <p>If you're like most creators, marketers, or business owners trying to tap into the AI revolution, you've probably already felt the overwhelm that comes with trying to figure it all out on your own...</p>
+                    <ul class="checklist">
+                        <li><strong>You'll waste days (even weeks)</strong> tinkering with prompts, trying to get a GPT to work the way you want.</li>
+                        <li><strong>You'll feel the weight of frustration grow</strong> as you struggle to write sales copy, emails, and social content that actually makes people care.</li>
+                        <li><strong>You'll second-guess every decision</strong>,
