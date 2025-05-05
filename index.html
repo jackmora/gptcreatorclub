@@ -612,6 +612,38 @@
                 margin-top: -2rem;
             }
         }
+
+        /* Grid System */
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 -1rem;
+        }
+
+        .col-md-6 {
+            flex: 0 0 50%;
+            max-width: 50%;
+            padding: 0 1rem;
+        }
+
+        .col-md-8 {
+            flex: 0 0 66.666667%;
+            max-width: 66.666667%;
+            padding: 0 1rem;
+        }
+
+        .mx-auto {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        @media (max-width: 768px) {
+            .col-md-6,
+            .col-md-8 {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+        }
     </style>
 </head>
 <body>
@@ -620,7 +652,7 @@
         <div class="container header-container">
             <a href="#" class="logo">GPT <span>Creator</span> Club</a>
             <div class="header-cta">
-                <a href="#pricing" class="btn btn-primary">Join Now</a>
+                <a href="#pricing" class="btn btn-primary">ORDER NOW</a>
             </div>
         </div>
     </header>
@@ -630,7 +662,7 @@
         <div class="container hero-content">
             <h1>Tired Of Watching Others Launch Cool GPTs While You Sit On The Sidelines?</h1>
             <p>Get done-for-you custom GPTs every month with white label rights, sales copy, emails, and social content. Perfect for creators, coaches, and marketers.</p>
-            <a href="#pricing" class="btn btn-primary btn-lg">Get Started Today</a>
+            <a href="#pricing" class="btn btn-primary btn-lg">ORDER NOW</a>
         </div>
     </section>
 
@@ -644,7 +676,7 @@
                 <h3>Join Today & Get <span class="text-primary">3 Bonus GPTs</span> Worth $600+</h3>
                 <div class="price">$297</div>
                 <p>One-time payment for permanent access before we switch to $297/year pricing</p>
-                <a href="#pricing" class="btn btn-primary btn-lg">Yes, I Want This!</a>
+                <a href="#pricing" class="btn btn-primary btn-lg">ORDER NOW</a>
                 <p class="my-2"><small>Risk-free 14-day guarantee</small></p>
             </div>
         </div>
@@ -763,33 +795,33 @@
     </section>
 
     <!-- Membership Options Section -->
-<section class="section">
-    <div class="container">
-        <div class="section-title">
-            <h2>Choose Your Membership And Join Now</h2>
-            <p>Whether you choose the monthly plan or lock in permanent access, you'll get your first GPT today, plus 3 bonus GPTs with full white label rights, a private 1-on-1 strategy call with Randy, personalized GPT creation support, and the opportunity to shape future GPTs with your own ideas.</p>
-        </div>
-        <div class="row">
-            <div class="col-md-6 mx-auto">
-                <div class="card text-center">
-                    <h3>Monthly Membership - Just $37/Month</h3>
-                    <p class="text-primary"><strong>THE MOST AFFORDABLE OPTION</strong></p>
-                    <p>Perfect if you want to test it out and see the value month to month.</p>
-                    <div class="my-4">
-                        <p><i class="fas fa-check text-success"></i> I understand that this is an ongoing subscription that I can cancel at any time.</p>
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Choose Your Membership And Join Now</h2>
+                <p>Whether you choose the monthly plan or lock in permanent access, you'll get your first GPT today, plus 3 bonus GPTs with full white label rights, a private 1-on-1 strategy call with Randy, personalized GPT creation support, and the opportunity to shape future GPTs with your own ideas.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <div class="card text-center">
+                        <h3>Monthly Membership - Just $37/Month</h3>
+                        <p class="text-primary"><strong>THE MOST AFFORDABLE OPTION</strong></p>
+                        <p>Perfect if you want to test it out and see the value month to month.</p>
+                        <div class="my-4">
+                            <p><i class="fas fa-check text-success"></i> I understand that this is an ongoing subscription that I can cancel at any time.</p>
+                        </div>
+                        <a href="#" class="btn btn-primary btn-lg">ORDER NOW</a>
+                        <div class="my-3">
+                            <img src="https://via.placeholder.com/200x60?text=ClickBank+Secure+Checkout" alt="Secure Checkout via ClickBank" class="img-fluid" style="max-width: 200px;">
+                        </div>
+                        <p><small>14 Day Money-Back Guarantee</small></p>
+                        <p><small>Secure Checkout via ClickBank - 100% Safe & Encrypted Payment Processing</small></p>
+                        <p><small><em>This subscription is separate from your membership to The GPT Creator Club.</em></small></p>
                     </div>
-                    <a href="#" class="btn btn-primary btn-lg">ORDER NOW</a>
-                    <div class="my-3">
-                        <img src="image.png" alt="Secure Checkout via ClickBank" class="img-fluid" style="max-width: 200px;">
-                    </div>
-                    <p><small>14 Day Money-Back Guarantee</small></p>
-                    <p><small>Secure Checkout via ClickBank - 100% Safe & Encrypted Payment Processing</small></p>
-                    <p><small><em>This subscription is separate from your membership to The GPT Creator Club.</em></small></p>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
     <!-- Who This Is For Section -->
     <section class="section">
@@ -887,74 +919,268 @@
         </div>
     </section>
 
-    <!-- Pricing Section -->
-    <section id="pricing" class="section bg-light">
+    <!-- FAQ Section -->
+    <section class="section bg-light">
         <div class="container">
             <div class="section-title">
-                <h2>The Time To Act Is Now!</h2>
-                <p>The GPT Creator Club gives you everything you need to build a scalable digital business with AI, even if you're brand new or short on time.</p>
+                <h2>Frequently Asked Questions</h2>
+                <p>Everything you need to know about The GPT Creator Club</p>
             </div>
-            <div class="text-center">
-                <p class="lead"><strong>Right now</strong>, during this special introductory window, <strong>you can lock in permanent access for just $297</strong>, before we move to a $297/year pricing model.</p>
-                <p class="lead">This is your chance to get ahead of the AI curve with monthly assets delivered and <strong>ready to be branded as your own</strong>.</p>
-            </div>
-            <div class="row my-5">
+            
+            <div class="row">
                 <div class="col-md-8 mx-auto">
-                    <div class="card">
-                        <div class="text-center">
-                            <h3>Here's Everything You'll Get Every Month</h3>
-                            <p>When You Join The GPT Creator Club</p>
+                    <div class="faq-item active">
+                        <h4>Do I need technical skills to use the GPTs?</h4>
+                        <div class="faq-content">
+                            <p>Not at all. If you can copy and paste, you can use these GPTs. We provide step-by-step training videos to walk you through everything, from setup to promotion.</p>
                         </div>
-                        <ul class="bullet-list">
-                            <li><strong>A Custom GPT With White Label Rights.</strong> Rebrand it, Rename it, And Sell Or Share it Under Your Own Brand.</li>
-                            <li><strong>Sales Page Copy.</strong> Professional Direct-Response Copy You Can Plug into Your Funnel Or Page Builder</li>
-                            <li><strong>Professionally Written, Ready-To-Send Email Sequence.</strong> Ready-To-Send Promotional Emails To Help You Drive Traffic And Sales</li>
-                            <li><strong>Social Media Creatives For Each GPT.</strong> Captions And Image Ideas For X, LinkedIn, And Facebook, Done For You</li>
-                            <li><strong>Full Training For Each GPT.</strong> Step-By-Step Video Walkthrough Showing How To Edit, Personalize, And Launch Your GPT</li>
-                            <li><strong>User Guide Template.</strong> A Professionally Designed Guide To Help Your Customers Use Your GPTs With Confidence</li>
-                            <li><strong>Ongoing Support.</strong> Get Help When You Need It. We're Here To Guide You Every Step Of The Way</li>
-                        </ul>
-                        <div class="bonus-box">
-                            <h4>BONUS #1: 3 Extra GPTs – Fully Branded & Ready To Use ($111 Value)</h4>
-                            <p>We Don't Believe in Slow Starts. The Moment You Join, You'll Get Instant Access To 3 More Powerful GPTs With Full White Label Rights. Use Them To Build Your List, Sell As Digital Products. Or Bundle Into Affiliate Promotions – All Under Your Own Brand.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h4>What kind of GPTs will I get each month?</h4>
+                        <div class="faq-content">
+                            <p>You'll receive GPTs designed for marketers, creators, coaches, consultants, and educators — tools that solve real problems, attract leads, and even generate sales. Think list builders, productivity boosters, content helpers, and more.</p>
                         </div>
-                        <div class="bonus-box">
-                            <h4>BONUS #2: 1-On-1 Strategy Call With Randy ($297 Value)</h4>
-                            <p>Get A Private Call With GPT Strategist Randy Smith To Map Out Your Personalized GPT Monetization Plan. Whether You're Selling, List-Building, Or Creating Offers, You'll Walk Away With A Custom Strategy. Actionable Steps, And Clarity On Exactly What To Do Next.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h4>How does the 'built by us' feature work?</h4>
+                        <div class="faq-content">
+                            <p>Simply suggest GPTs you want us to create via our support desk, and we'll add the best ones in the upcoming months. Yes, you can influence the club roadmap.</p>
                         </div>
-                        <div class="bonus-box">
-                            <h4>BONUS #3: Your GPT Ideas, Built By Us (Value = Priceless)</h4>
-                            <p>Have A Great GPT Idea? Tell Us! As A GPT Creator Club Member, You'll Get The Opportunity To Suggest GPTs You'd Love To Offer. We Review Submissions Regularly And Turn The Best Ideas Into Real Products Delivered In Future Months. You Don't Just Use The GPT Creator Club. You Help Shape It.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h4>Can I sell the GPTs under my own name or brand?</h4>
+                        <div class="faq-content">
+                            <p>Absolutely! Each GPT comes with full white label rights meaning you can rename it, repackage it, and even sell it as if you created it yourself. You're building your brand, not promoting ours.</p>
                         </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h4>Can my customers use the GPT too?</h4>
+                        <div class="faq-content">
+                            <p>Of course. Once you rebrand and share your GPT, your end user can use it freely inside their own ChatGPT account. We even include a user guide you can pass on to help them get started.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h4>What exactly are the white label rights? What can I not do?</h4>
+                        <div class="faq-content">
+                            <p>You can rebrand, sell, give away, and use the GPTs to grow your business. You cannot sell or share the unedited source files or licensing rights themselves. In other words, you can sell the finished product, but not the behind-the-scenes materials.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h4>Do I need a ChatGPT Plus subscription to use these?</h4>
+                        <div class="faq-content">
+                            <p>Yes — you'll need an active ChatGPT Plus subscription ($20/month via OpenAI) to copy & paste Randy's Prompts into the GPT Creator of ChatGPT. Then once created, anyone can use the GPT you provide for them via your new GPT link.</p>
+                        </div>
+                    </div>
+
+                <div class="faq-item">
+                    <h4>How does the guarantee work?</h4>
+                    <div class="faq-content">
+                        <p>I'll keep this simple: your investment is covered by my full money-back guarantee.</p>
+                        <p>I know other people make you jump through a bunch of hoops and prove you've watched all the videos and done all the homework.</p>
+                        <p>But that's not how we roll.</p>
+                        <p>You have a full 14 days from the date you join to see if The GPT Creator Club is right for you.</p>
+                        <p>If you decide that it isn't, just let us know and we'll gladly refund your money. No questions asked.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <h4>How much help am I going to get?</h4>
+                    <div class="faq-content">
+                        <p>You'll get unlimited access to our expert team through the support desk... our team responds quickly.</p>
+                        <p>Just hit the "submit a ticket" button inside the members area to tell us what you're struggling with and we'll reply to you personally within 24 hours.</p>
+                        <p>We have the best support in the business. We will blow you away when it comes to the level of support you've come to expect from other businesses, because we are that much a cut above.</p>
+                        <p>Bottom line: we're here to help you succeed!</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <h4>I'm in. What do I need to do next?</h4>
+                    <div class="faq-content">
+                        <p>Great! We look forward to working with you.</p>
+                        <p>Just choose your enrollment option, complete the sign up process, and you'll get immediate access to the members' area.</p>
                         <div class="text-center my-4">
-                            <div class="guarantee-badge">
-                                <i class="fas fa-shield-alt"></i> 14-Day 'Love It or Leave It' Guarantee
-                            </div>
-                            <p>We're So Confident You'll Love The GPT Creator Club That We're Backing It With A 100% Risk-Free, 14-Day Money-Back Guarantee. Try It Out. Explore The Tools. Launch Your First GPT. And if You're Not Completely Satisfied for Any Reason, Just Let Us Know And We'll Refund Every Penny. No Questions Asked. No Hoops To Jump Through. And Yes, You Get To Keep The GPTs You've Downloaded.</p>
-                        </div>
-                        <div class="text-center">
-                            <div class="price">$297</div>
-                            <p>One-time payment for permanent access</p>
-                            <a href="#" class="btn btn-primary btn-lg">Join The GPT Creator Club Now</a>
-                            <p class="my-2"><small>Risk-free 14-day guarantee</small></p>
+                            <a href="#pricing" class="btn btn-primary btn-lg">ORDER NOW</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Final CTA Section -->
-    <section class="section bg-dark text-white">
-        <div class="container">
-            <div class="section-title">
-                <h2>Which Path Will You Take?</h2>
+<!-- Pricing Section -->
+<section id="pricing" class="section">
+    <div class="container">
+        <div class="section-title">
+            <h2>The Time To Act Is Now!</h2>
+            <p>The GPT Creator Club gives you everything you need to build a scalable digital business with AI, even if you're brand new or short on time.</p>
+        </div>
+        <div class="text-center">
+            <p class="lead"><strong>Right now</strong>, during this special introductory window, <strong>you can lock in permanent access for just $297</strong>, before we move to a $297/year pricing model.</p>
+            <p class="lead">This is your chance to get ahead of the AI curve with monthly assets delivered and <strong>ready to be branded as your own</strong>.</p>
+        </div>
+        <div class="row my-5">
+            <div class="col-md-8 mx-auto">
+                <div class="card">
+                    <div class="text-center">
+                        <h3>Here's Everything You'll Get Every Month</h3>
+                        <p>When You Join The GPT Creator Club</p>
+                    </div>
+                    <ul class="bullet-list">
+                        <li><strong>A Custom GPT With White Label Rights.</strong> Rebrand it, Rename it, And Sell Or Share it Under Your Own Brand.</li>
+                        <li><strong>Sales Page Copy.</strong> Professional Direct-Response Copy You Can Plug into Your Funnel Or Page Builder</li>
+                        <li><strong>Professionally Written, Ready-To-Send Email Sequence.</strong> Ready-To-Send Promotional Emails To Help You Drive Traffic And Sales</li>
+                        <li><strong>Social Media Creatives For Each GPT.</strong> Captions And Image Ideas For X, LinkedIn, And Facebook, Done For You</li>
+                        <li><strong>Full Training For Each GPT.</strong> Step-By-Step Video Walkthrough Showing How To Edit, Personalize, And Launch Your GPT</li>
+                        <li><strong>User Guide Template.</strong> A Professionally Designed Guide To Help Your Customers Use Your GPTs With Confidence</li>
+                        <li><strong>Ongoing Support.</strong> Get Help When You Need It. We're Here To Guide You Every Step Of The Way</li>
+                    </ul>
+                    <div class="bonus-box">
+                        <h4>BONUS #1: 3 Extra GPTs – Fully Branded & Ready To Use ($111 Value)</h4>
+                        <p>We Don't Believe in Slow Starts. The Moment You Join, You'll Get Instant Access To 3 More Powerful GPTs With Full White Label Rights. Use Them To Build Your List, Sell As Digital Products. Or Bundle Into Affiliate Promotions – All Under Your Own Brand.</p>
+                    </div>
+                    <div class="bonus-box">
+                        <h4>BONUS #2: 1-On-1 Strategy Call With Randy ($297 Value)</h4>
+                        <p>Get A Private Call With GPT Strategist Randy Smith To Map Out Your Personalized GPT Monetization Plan. Whether You're Selling, List-Building, Or Creating Offers, You'll Walk Away With A Custom Strategy. Actionable Steps, And Clarity On Exactly What To Do Next.</p>
+                    </div>
+                    <div class="bonus-box">
+                        <h4>BONUS #3: Your GPT Ideas, Built By Us (Value = Priceless)</h4>
+                        <p>Have A Great GPT Idea? Tell Us! As A GPT Creator Club Member, You'll Get The Opportunity To Suggest GPTs You'd Love To Offer. We Review Submissions Regularly And Turn The Best Ideas Into Real Products Delivered In Future Months. You Don't Just Use The GPT Creator Club. You Help Shape It.</p>
+                    </div>
+                    <div class="text-center my-4">
+                        <div class="guarantee-badge">
+                            <i class="fas fa-shield-alt"></i> 14-Day 'Love It or Leave It' Guarantee
+                        </div>
+                        <p>We're So Confident You'll Love The GPT Creator Club That We're Backing It With A 100% Risk-Free, 14-Day Money-Back Guarantee. Try It Out. Explore The Tools. Launch Your First GPT. And if You're Not Completely Satisfied for Any Reason, Just Let Us Know And We'll Refund Every Penny. No Questions Asked. No Hoops To Jump Through. And Yes, You Get To Keep The GPTs You've Downloaded.</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="price">$297</div>
+                        <p>One-time payment for permanent access</p>
+                        <a href="#" class="btn btn-primary btn-lg">ORDER NOW</a>
+                        <p class="my-2"><small>Risk-free 14-day guarantee</small></p>
+                    </div>
+                </div>
             </div>
-            <div class="row">
-                <div class="col-md-8 mx-auto">
-                    <p>Let's take a moment to imagine where you'll be a few weeks or months from now if you don't take advantage of this opportunity.</p>
-                    <p>If you're like most creators, marketers, or business owners trying to tap into the AI revolution, you've probably already felt the overwhelm that comes with trying to figure it all out on your own...</p>
-                    <ul class="checklist">
-                        <li><strong>You'll waste days (even weeks)</strong> tinkering with prompts, trying to get a GPT to work the way you want.</li>
-                        <li><strong>You'll feel the weight of frustration grow</strong> as you struggle to write sales copy, emails, and social content that actually makes people care.</li>
-                        <li><strong>You'll second-guess every decision</strong>,
+        </div>
+    </div>
+</section>
+
+<!-- Final CTA Section -->
+<section class="section bg-dark text-white">
+    <div class="container">
+        <div class="section-title">
+            <h2>Which Path Will You Take?</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <p>Let's take a moment to imagine where you'll be a few weeks or months from now if you don't take advantage of this opportunity.</p>
+                <p>If you're like most creators, marketers, or business owners trying to tap into the AI revolution, you've probably already felt the overwhelm that comes with trying to figure it all out on your own...</p>
+                <ul class="checklist">
+                    <li><strong>You'll waste days (even weeks)</strong> tinkering with prompts, trying to get a GPT to work the way you want.</li>
+                    <li><strong>You'll feel the weight of frustration grow</strong> as you struggle to write sales copy, emails, and social content that actually makes people care.</li>
+                    <li><strong>You'll second-guess every decision</strong>, get stuck on the tech, and constantly wonder if you're doing it "right."</li>
+                    <li><strong>You'll miss out on countless opportunities</strong> all the while, you'll be watching others launch GPTs, build their lists, and make sales – while you're still stuck trying to connect the dots.</li>
+                </ul>
+                <p>But the worst part?</p>
+                <p>That creeping doubt...<br>
+                "Maybe I missed the boat."<br>
+                "Maybe this is too advanced for me."<br>
+                "Maybe I'm just not cut out for this."</p>
+                <p>That's what happens when you try to do it all yourself without a system, without support, and without momentum.</p>
+                <p>But it doesn't have to be that way.</p>
+                <p>The GPT Creator Club was built to remove every obstacle between you and success:</p>
+                <ul class="checklist">
+                    <li><strong>No more wondering</strong> what kind of GPT to create</li>
+                    <li><strong>No more hours lost</strong> writing prompts, building funnels, or writing sales content</li>
+                    <li><strong>No more feeling stuck</strong>, overwhelmed, or unsure of what to do next.</li>
+                </ul>
+                <p>Instead, you'll get a brand-new, professionally built GPT every month – complete with white label rights, marketing assets, training, and support – so you can launch fast, grow your audience, and start seeing real results.</p>
+                <div class="text-center my-5">
+                    <h3>This is the turning point.</h3>
+                    <p>You can keep trying to figure it all out yourself – or you can join the GPT Creator Club and shortcut the process with everything done for you.</p>
+                    <p>The choice is yours.</p>
+                </div>
+                <div class="text-center">
+                    <p>If you're truly ready to take advantage of the AI opportunity, build authority in your niche, and grow your income in the months ahead, here's what to do next:</p>
+                    <a href="#pricing" class="btn btn-primary btn-lg">ORDER NOW</a>
+                    <p class="my-3"><small>14-Day Money Back Guarantee</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-links">
+            <a href="#">Support</a>
+            <a href="#">Terms</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+        <div class="footer-disclaimer">
+            <p>ClickBank is the retailer of this product. CLICKBANK® is a registered trademark of Click Sales, Inc., a Delaware corporation located at 1444 S. Entertainment Ave., Suite 410 Boise, ID 83709, USA and used by permission. ClickBank's role as retailer does not constitute an endorsement, approval or review of this product or any claim, statement or opinion used in promotion of this product.</p>
+            <p>For Order Support, contact the vendor HERE. Or WhatsApp John Directly: +447341232133 For Product Support, contact ClickBank HERE.</p>
+        </div>
+        <div class="footer-copyright">
+            <p>Disclaimer: You understand and agree there are important risk factors that should be considered by you when deciding whether to invest in this program. We do not sell a business opportunity, "get rich quick" scheme, or money-making system. We believe, with education, businesses and individuals can be better equipped to make marketing and business decisions, but we do not guarantee success with our products and services.</p>
+            <p>Our education and training is for entertainment purposes only. Starting a business of any kind entails risk and it is possible to lose some or all of your money. We make no implications, warranties, promises, suggestions, projections, representations or guarantees that our training will make you any money; any earnings statements and dispositions are the opinions, findings, or experiences of an input successful attempts and are not typical. Some of our students make a lot of money, some make a little bit of money, and some make no money at all. Your individual results will vary and depend on many factors that are out of our control, including your experience, work ethic, skills, effort and time, as well as other unknown conditions. Further, many customers do not continue with the program, do not apply what they learn, or do attempt to apply what they learn but nonetheless have difficulties in making the strategies successful for them.</p>
+            <p>The word "permanent" applies to the lifetime of this site. The average lifetime of a product of this nature and price to be supported is approximately 5 years. This product does not guarantee income or success, and examples of the product owner's and other persons' results do not represent an indication of future success or earnings.</p>
+            <p>© Copyright The GPT Creator Club. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script>
+    // Header scroll effect
+    window.addEventListener('scroll', function() {
+        const header = document.querySelector('.header');
+        if (window.scrollY > 50) {
+            header.classList.add('scrolled');
+        } else {
+            header.classList.remove('scrolled');
+        }
+    });
+
+    // FAQ toggle functionality
+    document.querySelectorAll('.faq-item h4').forEach(question => {
+        question.addEventListener('click', () => {
+            const faqItem = question.parentElement;
+            const isActive = faqItem.classList.contains('active');
+            
+            // Close all other FAQs
+            document.querySelectorAll('.faq-item').forEach(item => {
+                item.classList.remove('active');
+            });
+            
+            // Toggle this one
+            if (!isActive) {
+                faqItem.classList.add('active');
+            }
+        });
+    });
+
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            
+            const targetId = this.getAttribute('href');
+            if (targetId === '#') return;
+            
+            const targetElement = document.querySelector(targetId);
+            if (targetElement) {
+                window.scrollTo({
+                    top: targetElement.offsetTop - 80,
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+</script>
